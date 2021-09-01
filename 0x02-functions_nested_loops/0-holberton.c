@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * main - Prints Holberton as a message.
  *
@@ -8,12 +7,11 @@
 
 int main(void)
 {
-	int c[] = "_putchar";
-	int length, i;
+	char c[] = "_putchar";
+	int i;
 
-	length = strlen(c);
-	
-	for (i = 0; i < length; i++)
+
+	for (i = 0; i < 9; i++)
 	{
 		_putchar(c[i]);
 	}
