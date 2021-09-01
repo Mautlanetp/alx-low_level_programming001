@@ -1,19 +1,21 @@
 #include "main.h"
 
 /**
- * main - prints lowercase alphabets
+ * print_alphabet - prints lowercase alphabets
  *
- * Return: Always 0
+ * Return: Always 0 (Success)
  */
 
-void print_alphabet(void)
+void Print_alphabet(void)
 {
-	int ch;
+	int i;
 	
-	clrscr();
 
-	for (ch= 'a'; ch<= 'z'; ch++)
-		putchar(ch);
-		putchar ('\n');
-		getch()'
+	for (i = 97; i <= 122; i++)
+	{
+		_putchar(i);
+	}
+		_putchar('\n');
+
+
 }
