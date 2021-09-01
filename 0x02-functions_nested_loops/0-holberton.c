@@ -1,5 +1,5 @@
-#include "holberton.h"
-
+#include "main.h"
+#include <string.h>
 /**
  * main - Prints Holberton as a message.
  *
@@ -7,13 +7,14 @@
  */
 int main(void)
 {
-	int str[] = {72, 111, 108, 98, 101, 114, 116, 111, 110};
-	int count, sz;
+	int c[] = "_putchar";
+	int length, i;
 
-	sz = sizeof(str) / sizeof(int);
-	for (count = 0; count < sz; count++)
+	length = strlen(c);
+	
+	for (i = 0; i < length; i++)
 	{
-		_putchar(str[count]);
+		_putchar(c[i]);
 	}
 	_putchar('\n');
 	return (0);
