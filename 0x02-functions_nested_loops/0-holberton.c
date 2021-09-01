@@ -1,10 +1,11 @@
 #include "main.h"
-#include <string.h>
+
 /**
  * main - Prints Holberton as a message.
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 	int c[] = "_putchar";
