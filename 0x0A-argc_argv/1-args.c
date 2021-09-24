@@ -1,8 +1,11 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-int main(int argc, __attribute__((unused))char **argv)
+int main(int argc,__attribute__((unused))char **argv)
 {
-	printf("%d\n", argc);
-	return (0);
+
+        printf("%d", argc);
+
+        return (0);
+
 }
